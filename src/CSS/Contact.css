@@ -1,0 +1,114 @@
+  .formbold-mb-5 {
+    margin-bottom: 20px;
+  }
+
+  .contact-heading
+  {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #b3245c;
+    padding: 1rem;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+  .formbold-pt-3 {
+    padding-top: 12px;
+  }
+  .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    /* background: white; */
+  }
+  .formbold-form-label {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333c43;
+    margin-bottom: 12px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .formbold-form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .formbold-form-input {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 14px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  .formbold-form-input:focus {
+    border-color: #b3245c;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold-btn {
+    margin-top:1.5rem;
+    background-color: #b3245c;
+    width:150px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+  }
+  .formbold-btn:hover {
+    background-color:#a21e53;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+  }
+
+  .formbold--mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .formbold-px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .w-full {
+    width: 100%;
+  }
+
+  .error {
+    color: red;
+  }
+  
+  @media (min-width: 540px) {
+    .sm\:w-half {
+      width: 50%;
+    }
+  }
